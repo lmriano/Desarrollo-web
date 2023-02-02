@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="descripcion" content="Alimentos S.A" />
+    <meta name="autor" content="Laura Riaño" />
+    <meta name="copyright" content="Facebook.inc" />
+    <title>Primera página web</title>
+    <link rel="icon" href="multimedia/javascript.png">
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="micuenta.html">Mi cuenta</a></li>
+          <li><a href="nosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <section>
+        <h1>Hola Mundo</h1>
+        <a href="#codigo">Click aquí para ir al código</a>
+        <h2>h2</h2>
+
+        <!-- Lorem y tab para un parrafo aleatorio  -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <!-- Etiqueta <b></b> es negrilla <i></i> es cursiva <strike></strike> es tachada <small></small> tamaño menor  -->
+        <b> Negrita <br /></b>
+        <i>Italica <br /></i>
+        <strike>Tachada <br /></strike>
+        <small>Chiquita <br /></small>
+        <!-- Target="_blank" abre el enlace en una nueva pestaña o ventana del navegador
+            Target="_self" es la opción por defecto, mostrando el contenido del link en la misma ventana
+            Target="_top" muestra el enlace en pantalla completa en la misma ventana
+            Target="_parent" muestra la página de destino en el frame anterior
+            Target="framename" abre el enlace en el iframe nombrado -->
+        <a href="https://unicode-table.com/es/html-entities/" target="_blank"
+          >click aquí</a
+        >
+        <br />
+        <br />
+        <a href="pagina2.html" target="_blank">página 2</a>
+        <br />
+        <br />
+        <!-- pagina 3 con ubicacion en otra carpeta  -->
+        <a href="cosas/pagina3.html" target="_blank">página 3</a>
+      </section>
+    </article>
+    <aside>
+      <h3>h3</h3>
+      <p>Parte del lado</p>
+    </aside>
+
+    <h4>h4</h4>
+
+    <p>Mi primera imagen</p>
+    <!-- imagen global -->
+    <img
+      src="https://www.primecomics.com.co/images/feature_variant/3/pikachu.jpg"
+      width="150px"
+      alt="pikachu"
+      title="Pikachu"
+    />
+    <br />
+    <center>
+      <!-- imagen local con texto alternativo-->
+      <img src="multimedia/html5.png"/ alt="html5" title="html5">
+      <br />
+    </center>
+
+    <!-- Video descargado  -->
+
+    <video width="640" height="360" controls>
+      <source
+        src="multimedia/Expectativa vs. Realidad_ Peluquería _ enchufetv.mp4"
+        type="video/mp4"
+      />
+      Tu navegador no soporta HTML5 video.
+    </video>
+    <br />
+    <!-- Audio descargado -->
+    <audio src="multimedia/audio.ogg" controls></audio>
+    <h5>h5 Lista de compra</h5>
+    <!-- Módulo de listas desordenadas -->
+    <ul>
+      <li>Leche</li>
+      <li>Harina</li>
+      <li>Huevos</li>
+      <li>Pan</li>
+    </ul>
+    <!-- Módulo de listas ordenadas -->
+    <ol>
+      <li>Leche</li>
+      <li>Harina</li>
+      <li>Huevos</li>
+      <li>Pan</li>
+    </ol>
+    <h6>h6</h6>
+    <div>
+      <p>Hola como estás</p>
+    </div>
+
+    <form>
+      <input type="text" required="" />
+      <input type="password" required="" />
+      <input type="button" value="Botón" />
+      <input type="submit" value="Enviar" />
+      <textarea></textarea>
+    </form>
+    <br />
+    <br />
+    <table>
+      <!-- filas tr-->
+      <tr>
+        <!-- campos por filas td -->
+        <td><center><b>Nombre</b></center></td>
+        <td><center><b>Apellido</b></center></td>
+        <td><center><b>Número</b></center></td>
+      </tr>
+
+      <tr>
+        <td><center>Laura</center></td>
+        <td><center>Riaño</center></td>
+        <td><center>293847923</center></td>
+      </tr>
+      <tr>
+        <td><center>Camilo</center></td>
+        <td><center>Riaño</center></td>
+        <td><center>293847923</center></td>
+      </tr>
+      <tr>
+        <td><center>German</center></td>
+        <td><center>Riaño</center></td>
+        <td><center>293847923</center></td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <h6 id="codigo">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut hic vitae ipsa quod, esse aut incidunt veniam eaque repudiandae, quis quam facilis! Numquam quibusdam ullam at repellendus consequuntur nam deleniti Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde eum nesciunt culpa praesentium amet reiciendis magni! Porro similique nostrum tempore quos perferendis deleniti inventore in vero? Placeat, deserunt corporis Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in vel possimus culpa totam modi, aspernatur odit, explicabo beatae ipsa inventore ipsam rerum? Incidunt, harum ipsam iusto ea voluptatum inventore!</p>
+    </h6>
+
+
+    <br />
+    <br />
+    <footer>
+      <p>copyright- todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

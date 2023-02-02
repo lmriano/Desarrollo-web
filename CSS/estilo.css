@@ -1,0 +1,78 @@
+/* Selector universal 
+* {
+  color: red;
+} */
+
+/* Selector de tipo  */
+h1{
+  color: darkblue;
+}
+button{
+  color: blueviolet;
+  border-color: chartreuse;
+}
+input{
+  border-color: blue;
+}
+p{
+  color: black;
+}
+
+/* Selector de clases */
+.titulo-h2{
+  color: grey;
+}
+
+/* Selector por id  */
+#prueba-color{
+  color: coral;
+}
+/* selector de atributo */
+[prueba="atributo"]{
+  color: cadetblue;
+}
+
+/* selectores descendiente */
+h4 p{
+  color: brown;
+}
+h4 b{
+  color: chartreuse;
+}
+
+/* Selector por pseudo-clases al pasar el cursor por encima cambia el color*/
+b:hover{
+  color: crimson;
+}
+
+
+/* jerarquía */
+/* clase */
+.color-red{
+ color:red
+}
+/* id */
+#color-blue{
+  color: blue;
+}
+/* elemento */
+h4{
+  color: aqua;
+}
+/* !important */
+h4{
+  color:cadetblue !important
+}
+
+/* metodología bem */
+.contact-form__input:first-child{
+  border-color: crimson;
+}
+.contact-form__input--active{
+  border-color: crimson;
+}
+.contact-form__p-h5{
+  color: rgb(0, 183, 255);
+}
+
+

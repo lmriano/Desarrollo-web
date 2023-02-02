@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS básico</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Pruebaaaa</h1>
+
+    <!-- clase para css -->
+    <h2 class="titulo-h2">H2 con css</h2>
+    <button>Da click</button>
+    <input type="text" value="Hola">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia consectetur odio ducimus eum, maxime voluptatibus eveniet ea natus corporis laboriosam. Incidunt, saepe dignissimos? Eaque, quas possimus. Nobis inventore eos aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto ipsa natus tempore, sint eius repellat explicabo a autem esse. Impedit sequi eum cupiditate maxime temporibus? Iusto quam eveniet pariatur cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores exercitationem natus ipsum veritatis quae, veniam illum, magnam expedita dicta odit numquam dolore minus omnis deserunt aspernatur quasi reprehenderit. Non, doloribus!</p>
+
+    <!-- ID para css tiene más rango que la clase-->
+    <h3 id="prueba-color">prueba color con selector id</h3>
+    <h3 prueba="atributo">hola</h3>
+
+    <!-- para selector descendiente -->
+    <h4><p>descendiente 1</p></h4>
+    <h4><b>descendiente 2</b></h4>
+
+    <!-- jerarquia primero STYLE luego ID ñuego CLASS -->
+    <h4 class="color-red" id="color-blue" style="color:green">Prueba</h4>
+
+    <!-- <metodologias bem -->
+    <div class="contact-form">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input">
+        <input type="text" class="contact-form__input--active">
+        <input type="password" class="contact-form__input">
+    </div>
+
+    <div class="contact-form">
+        <p class="contact-form__p">
+            <h5 class=contact-form__p-h5>Metodología bem prueba 2</h5>
+        </p>
+    </div>
+    <div class="number-form">
+        <p class="number-form__p">
+            <h5 class=number-form__p-h5>Metodología bem prueba 3</h5>
+        </p>
+    </div>
+    
+
+
+</body>
+</html>
